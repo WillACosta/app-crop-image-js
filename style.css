@@ -70,7 +70,7 @@ footer {
 }
 
 footer::after {
-    content: "Feito com ♥️ por WillACosta";
+    /* content: "Feito com ♥️ por WillACosta"; */
     opacity: 0.6;
     font-size: 0.8rem;
 }
@@ -120,4 +120,18 @@ img {
 
 #photo-preview {
     margin: .8rem 0;
+}
+
+#selection-tool {
+    position: fixed;
+    display: none;
+    border: 2px dashed var(--green);
+}
+
+#crop-image {
+    display: none;
+}
+
+#download {
+    display: none;
 }
